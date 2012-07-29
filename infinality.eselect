@@ -36,7 +36,7 @@ set_symlink() {
 
     ln -s "styles.conf.avail/${target}" "${EROOT}/etc/fonts/infinality/conf.d"
     echo "Selected style: ${target}"
-    echo "You should update /etc/env.d/99lcdfilter to match your current style"
+    echo "You should set eselect lcdfilter to match your current style"
 }
 
 ### show action ###
